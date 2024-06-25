@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
 		============================================ -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('img/favicon.ico')}}">
     <!-- Google Fonts
 		============================================ -->
     <link href="{{asset('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900')}}" rel="stylesheet">
@@ -914,7 +914,7 @@
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                                         <div class="breadcomb-wp">
 											<div class="breadcomb-icon">
-												<i class="{{asset('icon nalika-home')}}"></i>
+												<i class="icon nalika-home"></i>
 											</div>
 											<div class="breadcomb-ctn">
 												<h2>Dashboard One</h2>
